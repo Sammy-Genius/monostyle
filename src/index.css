@@ -118,7 +118,7 @@
 }
 
 .animation {
-    animation: anim 300s linear alternate infinite;
+    animation: anim 300s linear infinite;
 }
 
 @keyframes anim {
