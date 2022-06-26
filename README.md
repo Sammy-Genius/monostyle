@@ -1,2 +1,2 @@
 # this-is-fashion
-a fashion UI project with React, GSAP and Tailwind.css
+A modern UI project to try my hands on web animations with GSAP and Framer motion. Built with React + Tailwind.css
