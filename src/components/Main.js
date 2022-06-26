@@ -24,7 +24,7 @@ const Main = () => {
             </div>
             <div className='w-full lg:w-[auto]'>
               <div className='w-full h-[400px] lg:w-[450px] lg:h-[500px] lg:absolute lg:rotate-[3deg] lg:opacity-90 clip-container translate-x-20' ref = { imgBox }>
-                <img className='w-full h-full lg:scale-[1.2]' src={require('../images/image-4.jpg')} alt="" ref={coverImg} />
+                <img className='w-full h-full scale-[1.2]' src={require('../images/image-4.jpg')} alt="" ref={coverImg} />
               </div>
             </div>
           </main>
