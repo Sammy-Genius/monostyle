@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width:0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #84817a;
+    border-radius:30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bdc3c7;
+}
+
+
+@layer utilities {
+    .clip-loader {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .clip-img {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+
+    .clip-container {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    .clip-circle {
+       clip-path: circle(0%);
+    }
+
+    .clip-down {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .transparent-text {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .fill-text {
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .blend {
+        mix-blend-mode: difference;
+    }
+
+    .gradient {
+       background-image: linear-gradient(to right top, #ffffff, #efeff1, #dfe0e3, #ced1d5, #bdc3c7);
+    }
+
+    .fit {
+        object-fit: cover;
+    }
+
+    .fill {
+        object-fit: fill;
+    }
+
+    .none {
+        display:none;
+    }
+
+    .error {
+        border:2px solid red;
+    }
+
+    .close-btn {
+        border: 2px solid white;
+        padding:5px 10px;
+        border-radius:50%;
+        cursor: pointer;
+    }
+
+    .glass {
+        background: rgba( 236, 240, 241, 0.25 );
+        box-shadow: 0 1px 2px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+
+    .black-and-white {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    .colored {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+.flex-box {
+    @apply flex justify-center items-center;
+}
+
+.animation {
+    animation: anim 300s linear alternate infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
