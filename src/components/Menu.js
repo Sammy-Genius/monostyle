@@ -95,16 +95,16 @@ const Menu = ( { menuIsOpen, openMenu } ) => {
             >
                 <motion.div className='w-full h-full bg-black flex-box flex-col relative' variants={clipVariants}>
                   <motion.ul className='w-[70%] h-[80%] flex flex-col items-center justify-between z-10' variants={revealVariants}>
-                    <li onClick={openMenu}><a className='uppercase font-monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#home">Home</a></li>
-                    <li onClick={openMenu}><a className='uppercase font-monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#team">team</a></li>
-                    <li onClick={openMenu}><a className='uppercase font-monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#about">about</a></li>
-                    <li onClick={openMenu}><a className='uppercase font-monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#works">works</a></li>
-                    <li onClick={openMenu}><a className='uppercase font-monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#contact">let's talk</a></li>
+                    <li onClick={openMenu}><a className='uppercase monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#home">Home</a></li>
+                    <li onClick={openMenu}><a className='uppercase monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#team">team</a></li>
+                    <li onClick={openMenu}><a className='uppercase monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#about">about</a></li>
+                    <li onClick={openMenu}><a className='uppercase monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#works">works</a></li>
+                    <li onClick={openMenu}><a className='uppercase monument text-white text-3xl lg:text-6xl hover:opacity-70' href="#contact">let's talk</a></li>
                   </motion.ul>
                     <motion.div className='w-full h-full absolute top-0 left-0 flex items-end justify-end ' variants={revealVariants}>
                     <img className='w-[600px] h-[700px] black-and-white opacity-50 lg:hover:colored' src={require('../images/akua.png')} alt="" />
                   </motion.div>
-                  <motion.span className='text-xl close-btn text-white font-monument absolute top-[5%] right-[5%] hover:opacity-70' onClick={openMenu} variants={clipVariants}>&times;</motion.span>
+                  <motion.span className='text-xl close-btn text-white monument absolute top-[5%] right-[5%] hover:opacity-70' onClick={openMenu} variants={clipVariants}>&times;</motion.span>
                 </motion.div>
             </motion.div>
         )}

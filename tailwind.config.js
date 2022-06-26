@@ -6,7 +6,6 @@ module.exports = {
     extend: {
       fontFamily: {
         mont: ['Montserrat', 'sans-serif'],
-        monument: ['Monument Extended', 'sans-serif'],
         tangerine: ['Tangerine', 'cursive'],
       },
       width: {

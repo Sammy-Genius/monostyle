@@ -59,8 +59,8 @@ const Team = () => {
           </div>
           <div className="w-full flex flex-col lg:flex-row lg:mt-[50px] lg:h-[1500px] clip-loader" id='team'>
             <div className='w-full relative block lg:none'>
-              <h1 className='block lg:none font-monument text-7xl transparent-text text-center font-bold opacity-30'>Meet Our</h1>
-              <motion.h1 className='block lg:none font-monument text-7xl text-black text-center font-bold mb-[40px] uppercase' ref={ref} animate={animation}>team</motion.h1>
+              <h1 className='block lg:none monument text-7xl transparent-text text-center font-bold opacity-30'>Meet Our</h1>
+              <motion.h1 className='block lg:none monument text-7xl text-black text-center font-bold mb-[40px] uppercase' ref={ref} animate={animation}>team</motion.h1>
             </div>
             <div className='w-full h-auto lg:w-[33.3%] lg:h-full flex justify-center items-center'>
               <div className='w-[90%] h-[500px] md:w-[80%] glass relative flex items-end justify-center'>
@@ -83,8 +83,8 @@ const Team = () => {
                   <h1 className='text-center font-mont whitespace-nowrap text-[.8rem] font-bold'>Emily</h1>
                 </div>
               </div>
-              <h1 className='mt-[70px] font-monument text-8xl transparent-text none lg:block text-center opacity-30'>Meet Our</h1>
-              <motion.h1 className='font-monument text-8xl text-black none lg:block text-center uppercase' ref={refTwo} animate={animationTwo}>Team</motion.h1>
+              <h1 className='mt-[70px] monument text-8xl transparent-text none lg:block text-center opacity-30'>Meet Our</h1>
+              <motion.h1 className='monument text-8xl text-black none lg:block text-center uppercase' ref={refTwo} animate={animationTwo}>Team</motion.h1>
               <div className='w-[90%] h-[500px] md:w-[80%] glass flex items-end justify-end relative mt-[30px]'>
                 <img className="w-[90%] h-full md:w-[70%] lg:w-[90%]" src={require('../images/akua.png')} alt="" />
                 <div className='absolute top-[25%] left-[-8%] w-[30%] h-auto rotate-[-90deg]'>

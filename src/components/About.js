@@ -95,14 +95,14 @@ const About = () => {
         <div className="w-full mt-[150px] lg:mt-[300px] flex flex-col items-center"id='about'>
           <div className='w-[90%] lg:w-[60%]'>
             <motion.div ref={ref} animate={animation}>
-              <h1 className='text-black font-bold font-monument text-5xl lg:text-8xl uppercase'>a different</h1>
-              <h1 className='text-black font-bold font-monument text-5xl lg:text-8xl uppercase'>kind of</h1>
-              <h1 className='text-black font-bold font-monument text-5xl lg:text-8xl uppercase'>fashion studio</h1>
+              <h1 className='text-black font-bold monument text-5xl lg:text-8xl uppercase'>a different</h1>
+              <h1 className='text-black font-bold monument text-5xl lg:text-8xl uppercase'>kind of</h1>
+              <h1 className='text-black font-bold monument text-5xl lg:text-8xl uppercase'>fashion studio</h1>
             </motion.div>
             <img className="w-[90%] lg:w-[700px] h-[400px] fit mt-[30px]" src={require('../images/studio.jpg')} alt=""/>
             <motion.div ref={refTwo} animate={animationTwo}>
-              <h1 className='text-black font-bold font-monument text-5xl lg:text-8xl uppercase mt-[30px]'>based in</h1>
-              <h1 className='text-black font-bold font-monument text-5xl lg:text-8xl uppercase'>airport city <br /> accra</h1>
+              <h1 className='text-black font-bold monument text-5xl lg:text-8xl uppercase mt-[30px]'>based in</h1>
+              <h1 className='text-black font-bold monument text-5xl lg:text-8xl uppercase'>airport city <br /> accra</h1>
             </motion.div>
             <div className='w-full mt-[100px] flex flex-col lg:flex-row'>
               <div className='w-full lg:w-[50%]'>
